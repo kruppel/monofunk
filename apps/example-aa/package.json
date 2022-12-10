@@ -2,7 +2,7 @@
   "name": "example-aa",
   "version": "0.0.0",
   "private": true,
-  "main": "./dist/index.ts",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
     "lint": "TIMING=1 eslint \"**/*.ts*\""

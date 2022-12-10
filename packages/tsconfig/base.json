@@ -5,10 +5,7 @@
   "compilerOptions": {
     "allowJs": true,
     "esModuleInterop": true,
-    "lib": ["ES2021", "DOM"],
-    "outDir": "dist"
-  },
-  "include": ["src/**/*.ts"],
-  "exclude": ["src/**/*.test.ts", "node_modules"]
+    "lib": ["ES2021", "DOM"]
+  }
 }
 
