@@ -1,8 +1,10 @@
 {
   "name": "example-aa",
   "version": "0.0.0",
-  "main": "./index.ts",
+  "private": true,
+  "main": "./dist/index.ts",
   "scripts": {
+    "build": "tsc",
     "lint": "TIMING=1 eslint \"**/*.ts*\""
   },
   "devDependencies": {
@@ -11,6 +13,7 @@
     "eslint": "^7.32.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.1",
+    "tsconfig": "*",
     "typescript": "^4.5.2"
   }
 }

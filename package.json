@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "workspaces": [
+    "apps/*",
     "packages/*"
   ],
   "scripts": {
@@ -19,5 +20,5 @@
     "node": ">=14.0.0"
   },
   "dependencies": {},
-  "packageManager": "npm@8.1.0"
+  "packageManager": "^yarn@1.22.18"
 }
